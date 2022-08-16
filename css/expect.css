@@ -302,6 +302,8 @@
     
     .expect__info_block1-left_link:hover{
         border: 3px solid #6244bb;
+        width: 603px;
+        height: 40px;
     }
     
     .link-name{
