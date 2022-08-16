@@ -72,6 +72,10 @@
     border-radius: 4px;
     margin-left: 16px;
 }
+.block-btn:hover{
+    color:#412d7b;;
+    border:2px solid #412d7b;;
+}
 
 @media(max-width:1180px){    
     .planning__info{

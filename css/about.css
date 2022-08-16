@@ -74,6 +74,10 @@
 
 }
 
+.about__rows_info-link:hover{
+    border-bottom:1px solid rgba(255,255,255,0.8);
+}
+
 @media(max-width:1166px){ 
     .about__line{
         width:92%;
@@ -94,20 +98,7 @@
         flex-direction: column;
     }
 
-    .about__line{
-        /* overflow-y: hidden; */
-    }
-
-    .about__line_left{
-        /* overflow-y: hidden; */
-    }
-    .about__rows_info{
-        /* margin-right: auto; */
-    }
-
     .about__line_left-text{
-        /* height: 20px; */
-        /* width:142px ; */
         overflow: hidden;
     }
 }
