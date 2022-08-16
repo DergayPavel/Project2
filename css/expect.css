@@ -195,15 +195,18 @@
 @media(max-width:768px){
     .expect__info{
         width:100%;
+        align-items: center;
     }
 
     .expect__name{
         font-size: 1.5rem;
         line-height: 1.33;
+        max-width: 95%;
+        text-align: center;
     }
 
     .expect__info_block1{
-        width:100%;
+        width:95%;
         /* width: 1175px; */
         height: auto;
         flex-direction: column;
@@ -327,5 +330,11 @@
 
     .expect__info_block2-left{
         height: auto;
+    }
+}
+
+@media(max-width:944px){
+    .expect__info_block2{
+        margin-bottom: 30px ;
     }
 }
